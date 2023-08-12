@@ -16,6 +16,7 @@ local especialTotal = 8
 local temporario = 0
 local foco = 2
 
+alert('!!!!!!        COMUNIQUE ATAQUE PODEROSO       !!!!!!')
 local indice, texto = choose("!!!!!!        COMUNIQUE ATAQUE PODEROSO       !!!!!!", {
   "Ataque: 0 PM",
   "Investida: 0 PM",
