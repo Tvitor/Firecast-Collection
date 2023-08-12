@@ -22,6 +22,6 @@ Este projeto é licenciado sob a [Licença MIT](LICENSE). Isso significa que voc
 ## Recursos Úteis
 
 - [Documentação do Firecast](https://firecast.app/sdk3/RRPG%20SDK%203.html?Macros.html)
-- [Comunidade RRPG Firecast no Facebook](https://www.facebook.com/groups/RRPG.Firecast/)
+- [Comunidade RRPG Firecast no DISCORD](https://discord.gg/d7dzwH4xWx)
 
 Agradecemos por sua contribuição e esperamos que este repositório seja uma fonte valiosa de recursos para a comunidade de RPGistas que utiliza o Firecast.
