@@ -76,15 +76,3 @@ else
   enviar("❌ FALHA =/ KAIZEN ERROU ")
 end
 
--- local mensagemResultado = myCharacter.nome .. ": Resultado = " .. resultado .. observacao
--- enviar(mensagemResultado, true, true)
-
-
--- local final = math.floor(adicional) + resultado
-
--- if resultado - adicional >= 20 then
--- enviar(myCharacter.nome .. ": " .. final .. " de crítico!\n" .. observacao .. "\n" .. log)
-
--- else
---   enviar(myCharacter.nome .. ": "  .. "\n" .. final .. observacao .. "\n" .. log)
--- end
