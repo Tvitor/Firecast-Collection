@@ -43,12 +43,14 @@ local indice, texto = choose("Escolha a perícia: ", opcoes_pericias, 1)
 bonus = inputQuery("Digite o valor bonus")
 bonus = tonumber(bonus) or 0
 
+local observacao = '';
+
 if indice then
   local valor = pericias[texto]
-  local rolagem = rolar("1d20")
-  rolagem = rolagem + valor + bonus
+  local total  = tonumber(valor) + tonumber(bonus)
 
-  enviar(myCharacter.nome .. " testou a Perícia: " .. texto .. " (Valor Base: " .. valor .. ")." .. " bonus: " .. bonus .. " Resultado: " .. rolagem)
+  observacao =  "PERÍCIA: " .. texto .. "\n(Valor Base: " .. valor .. ")" .. "\nbonus: " .. bonus
+  local resultado = rolar("1d20+" .. total, observacao)
 else
   enviar("Nenhuma perícia selecionada!")
 end
