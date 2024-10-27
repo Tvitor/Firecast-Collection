@@ -1,0 +1,113 @@
+local luta = 2
+local carisma = 8
+local pm = 0
+
+local indice, texto = choose("Defina o Tipo de Ataque", {
+  "Ataque básico: 0 PM",
+  "Investida: 0 PM",
+  "Flanqueado: 0 PM",
+  "Investindo e Flanqueando: 0 PM"
+}, 1)
+
+local indice2, texto2 = choose("Com Golpe Especial?", {
+  "Não: 0 PM",
+  "Metade (2): 1 PM",
+  "Total: (4) 1 PM"
+}, 1)
+
+local indice3, texto3 = choose("Concentração de combate?", {
+  "Não",
+  "Sim"
+}, 1)
+
+chat:escrever("[§K1] Opção escolhida: " .. texto3, true, true)
+local tipoAtaque = indice
+
+local adicional = 0
+local observacao = ""
+local resultado
+local valorSemModificador
+
+-- Menu para selecionar bônus adicionais
+local bonus, textoBonus = choose("Selecione os Bônus Adicionais", {
+  "Nenhum",
+  "Arma Mágica (+2)",
+  "Golpe Divino (+8)",
+  "Arma Mágica e Golpe Divino (+10)"
+}, 1)
+
+chat:escrever("[§K1] Bônus escolhidos: " .. textoBonus, true, true)
+
+-- Aplica os bônus selecionados
+if bonus == 2 or bonus == 3 then
+  adicional = adicional + 2 -- Adiciona bônus da Arma Mágica
+  observacao = "Arma Mágica (+2)"
+  pm = pm + 2
+end
+
+if bonus == 3 then
+  adicional = adicional + 8 -- Adiciona bônus do Golpe Divino
+  observacao = " Golpe Divino (+8) "
+  pm = pm + 2
+end
+
+if bonus == 4 then
+  adicional = adicional + 10 -- Adiciona bônus da Arma Mágica e Adiciona bônus do Golpe Divino
+  observacao = "Arma Mágica (+2)  Golpe Divino (+8) "
+  pm = pm + 2
+end
+
+if indice2 == 2 then
+	adicional = adicional + 2
+ 	observacao = observacao .. " Golpe Especial (+2)"
+   pm = pm + 1
+end
+
+if indice2 == 3 then
+	adicional = adicional + 4
+ 	observacao = observacao .. " Golpe Especial (+4)"
+   pm = pm + 1
+end
+
+-- Calcula o dano base
+if tipoAtaque == 1 then
+  adicional = adicional + luta
+  observacao = observacao .. " Ataque Básico Luta (+2)"
+elseif tipoAtaque == 2 then
+  adicional = adicional + 2 + luta
+  observacao = observacao .. " Investida (+2) Luta (+2)"
+elseif tipoAtaque == 3 then
+  adicional = adicional + 2 + luta
+  observacao = observacao .. " Flanqueado (+2) Luta (+2)"
+elseif tipoAtaque == 4 then
+  adicional = adicional + 4 + luta
+  observacao = observacao .. " Investindo e Flanqueando (+4) Luta (+2)"
+end
+
+observacao = observacao  .." Custo: " .. pm .. "PM"
+if indice3 == 2 then
+
+  local primeiro = rolar("1d20")
+  local segundo = rolar("1d20", observacao)
+  
+  if tonumber(primeiro) > tonumber(segundo) then
+    valorSemModificador = tonumber(primeiro)
+  else
+    valorSemModificador = tonumber(segundo)
+  end
+
+  resultado = tonumber(valorSemModificador) + tonumber(adicional)
+elseif indice3 == 1 then
+  valorSemModificador = rolar("1d20", observacao)
+  resultado = tonumber(valorSemModificador) + tonumber(adicional)
+end
+
+
+if tonumber(valorSemModificador) > 16 then
+  enviar("💥 [§K8] [LOKTAR] ACERTOU UM CRÍTICO! - "  .."[§K9]" ..resultado .. "[§K8] De Ataque 💥" )
+elseif tonumber(valorSemModificador) > 1 then
+  enviar("🎯[§K8] [LOKTAR] - " .."[§K9]" ..resultado .. "[§K8] DE ATAQUE")
+else
+  enviar("❌ [§K8] [LOKTAR] FALHOU =/  [§K4] 1 [§K8] de Ataque")
+end
+
