@@ -1,0 +1,8 @@
+enviar("💥 [§K1] [teste]")
+enviar("💥 [§K2] [teste]")
+enviar("💥 [§K3] [teste]")
+enviar("💥 [§K4] [teste]")
+enviar("💥 [§K5] [teste]")
+enviar("💥 [§K6] [teste]")
+enviar("💥 [§K7] [teste]")
+enviar("💥 [§K8] [teste]")
