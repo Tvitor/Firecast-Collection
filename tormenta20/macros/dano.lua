@@ -94,4 +94,4 @@ elseif tipoDano == 11 then
 end
 
 local resultado = rolar(valor .. adicional, observacao)
-enviar("🪓 KAIZEN CAUSOU " .. resultado .." DE DANO")
+enviar("🪓 [§K7] [Kaizen] [§K1] " .. resultado .." DE DANO")

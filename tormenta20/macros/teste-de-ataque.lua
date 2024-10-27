@@ -68,11 +68,11 @@ local resultado = rolar("1d20+" .. adicional, observacao)
 
 local valorSemModificador = tonumber(resultado) - tonumber(adicional)
 
-if valorSemModificador == 20 then
-  enviar("💥 KAIZEN ACERTOU UM CRÍTICO!")
+if valorSemModificador == 19 then
+  enviar("💥 [§K7] [KAIZEN] [§K4] ACERTOU UM CRÍTICO!")
 elseif valorSemModificador > 1 then
-  enviar("🪓 KAIZEN TIROU " .. resultado)
+  enviar("🪓 [§K7] [KAIZEN] [§K1]" .. resultado .. "[§K1] te acerta? ")
 else
-  enviar("❌ FALHA =/ KAIZEN ERROU ")
+  enviar("❌ [§K1] FALHA =/ [§K7] [KAIZEN]  [§K1] ERROU ")
 end
 
