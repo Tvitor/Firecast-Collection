@@ -1,0 +1,81 @@
+# Ficha do Personagem: Progressão de Nível 1 ao 15
+
+## Nível 1
+| **Nível** | **Raça** | **Classe** | **Origem**       | **Deus**  | **Poderes de Raça**                     | **Poderes de Origem**                        | **Poderes Concedidos**              | **Habilidades Escolhidas**   | **Força** | **Constituição** | **Inteligência** | **Destreza** | **Sabedoria** | **Carisma** | **Defesa** | **PV** | **PM** |
+|-----------|----------|------------|------------------|-----------|-----------------------------------------|----------------------------------------------|-------------------------------------|--------------------------------|-----------|------------------|------------------|--------------|---------------|-------------|------------|--------|--------|
+| 1         | Anão     | Guerreiro  | Herói Camponês | Arsenal   | Conhecimento das Rochas: visão no escuro e +2 em Percepção e Sobrevivência no subterrâneo | Coração Heroico: +3 PV iniciais e +3 PV a cada patamar | Conjurar Arma: invoca arma mágica com +1 em ataque e dano, dura até o fim da cena | Ataque Especial: gasta 1 PM para +4 no teste de ataque ou rolagem de dano | +6 (valor inicial) | +5 +2 (Anão) = +7 | +4 | +3 -1 (Anão) = +2 | +2 +1 (Anão) = +3 | +1 | 19     | 26     | 9      |
+|           |          |            |                  |           | Devagar e Sempre: deslocamento 6m, não reduzido por armaduras | Sortudo: gastar 3 PM para rolar novamente um teste | Coragem Total: imune a efeitos de medo, mágicos ou não |                       |           |                  |                  |              |               |             |            |        |        |
+|           |          |            |                  |           | Duro como Pedra: +3 PV no 1º nível e +1 PV por nível seguinte | Surto Heroico: gasta 5 PM para realizar uma ação padrão ou movimento adicional |                                  |                       |           |                  |                  |              |               |             |            |        |        |
+|           |          |            |                  |           | Tradição de Heredrimm: machados, martelos, marretas e picaretas são armas simples para você, recebe +2 em ataques com essas armas | Torcida: +2 em testes de perícia e Defesa com torcida favorável (Carisma 1) |                                  |                       |           |                  |                  |              |               |             |            |        |        |
+
+## Nível 2
+| **Nível** | **Habilidades Escolhidas**                 | **PV** | **PM** |
+|-----------|--------------------------------------------|--------|--------|
+| 2         | Especialização em Arma (Machado): +2 no dano com o machado | 34     | 12     |
+
+## Nível 3
+| **Nível** | **Habilidades Escolhidas**          | **PV** | **PM** |
+|-----------|-------------------------------------|--------|--------|
+| 3         | Desarmar Aprimorado: +2 em testes de ataque para desarmar e gasta 1 PM para arremessar a arma desarmada | 42     | 15     |
+
+## Nível 4
+| **Nível** | **Habilidades Escolhidas**     | **PV** | **PM** |
+|-----------|--------------------------------|--------|--------|
+| 4         | Valentão: +2 em ataques e dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos | 50     | 18     |
+
+## Nível 5
+| **Nível** | **Aumento de Atributo** | **Força** | **PV** | **PM** |
+|-----------|--------------------------|-----------|--------|--------|
+| 5         | +1 Força                 | +6 +1 = +7 | 58     | 21     |
+
+## Nível 6
+| **Nível** | **Habilidades Escolhidas**                | **PV** | **PM** |
+|-----------|-------------------------------------------|--------|--------|
+| 6         | Ataque Extra: gasta 2 PM para realizar um ataque adicional por rodada | 66     | 24     |
+|           | Estilo de Duas Mãos: +5 no dano ao usar uma arma de duas mãos |        |        |
+
+## Nível 7
+| **Nível** | **Habilidades Escolhidas**       | **PV** | **PM** |
+|-----------|----------------------------------|--------|--------|
+| 7         | Ataque Poderoso: sofre –2 no teste de ataque para receber +5 no dano | 74     | 27     |
+
+## Nível 8
+| **Nível** | **Habilidades Escolhidas**           | **PV** | **PM** |
+|-----------|--------------------------------------|--------|--------|
+| 8         | Tornado de Dor: gasta 2 PM para atacar todos os inimigos em alcance, com +2 no dano para cada acerto | 82     | 30     |
+
+## Nível 9
+| **Nível** | **Habilidades Escolhidas**    | **PV** | **PM** |
+|-----------|-------------------------------|--------|--------|
+| 9         | Combate Defensivo: sofre –2 no ataque e recebe +5 na Defesa até o próximo turno | 90     | 33     |
+
+## Nível 10
+| **Nível** | **Habilidades Escolhidas**            | **PV** | **PM** |
+|-----------|---------------------------------------|--------|--------|
+| 10        | Ataque Pesado: paga 1 PM para realizar manobra derrubar ou empurrar ao acertar ataque com arma de duas mãos | 98     | 36     |
+
+## Nível 11
+| **Nível** | **Aumento de Atributo** | **Força** | **PV** | **PM** |
+|-----------|--------------------------|-----------|--------|--------|
+| 11        | +1 Força                 | +7 +1 = +8 | 106    | 39     |
+
+## Nível 12
+| **Nível** | **Habilidades Escolhidas**               | **PV** | **PM** |
+|-----------|------------------------------------------|--------|--------|
+| 12        | Especialização em Armadura: +5 de redução de dano ao usar armadura pesada | 114    | 42     |
+|           | Mestre em Arma (Machado): aumenta o dano do machado em um passo e pode gastar 2 PM para rolar novamente um teste de ataque recém realizado |        |        |
+
+## Nível 13
+| **Nível** | **Habilidades Escolhidas**          | **PV** | **PM** |
+|-----------|-------------------------------------|--------|--------|
+| 13        | Vontade de Ferro: +1 PM a cada dois níveis e +2 em testes de Vontade | 122    | 50     |
+
+## Nível 14
+| **Nível** | **Habilidades Escolhidas**                | **PV** | **PM** |
+|-----------|-------------------------------------------|--------|--------|
+| 14        | Reflexos de Combate: ganha uma ação de movimento extra no início do primeiro turno de cada combate | 130    | 53     |
+
+## Nível 15
+| **Nível** | **Aumento de Atributo** | **Força** | **PV** | **PM** |
+|-----------|--------------------------|-----------|--------|--------|
+| 15        | +1 Força                 | +8 +1 = +9 | 138    | 56     |
